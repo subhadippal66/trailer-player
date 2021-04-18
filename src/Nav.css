@@ -1,0 +1,34 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 1) 9%,
+    rgba(17, 17, 17, 0.5) 52%,
+    rgba(17, 17, 17, 0) 100%
+  );
+}
+
+.nav_logo {
+  margin-left: 10px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.avatar_logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.blackNav {
+  background-color: #111;
+}
